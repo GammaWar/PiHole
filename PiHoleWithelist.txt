@@ -1,0 +1,80 @@
+#Daheim eigene Dienste:
+
+#############################################################################################################################################
+#ANIME
+#############################################################################################################################################
+animetoast.cc
+www.animetoast.cc
+anime-planet.com
+www.anime-planet.com
+anime-tube.tv
+www.anime-loads.org
+
+#############################################################################################################################################
+#MANGA
+#############################################################################################################################################
+manga-tube.me
+manhuatop.org
+
+#############################################################################################################################################
+#CRYPTO
+#############################################################################################################################################
+autofaucet.dutchycorp.space
+cointiply.com
+freebitco.in
+randomsatoshi.win
+
+#############################################################################################################################################
+#PLEX
+#############################################################################################################################################
+plex.tv #(Plex-Webseite und Auth)
+app.plex.tv #(Plex Web-App)
+#*.plex.direct
+#*.plexamp.com
+#*.plex.video
+#*.plex.direct #(muss als regex in PiHole direkt gemacht werden)
+#*.plexamp.com #(muss als regex in PiHole direkt gemacht werden)
+#*.plex.video #(muss als regex in PiHole direkt gemacht werden)
+api.plex.direct
+media.plex.tv
+metadata.plex.tv #(Metadaten für Filme/Serien)
+myplex.plex.tv #(MyPlex-Konto)
+#analytics.plex.tv #(Analytics – optional, aber empfohlen)
+#metrics.plex.tv #(für Nutzungsdaten, oft blockiert, kann freigegeben werden, ist aber nicht zwingend notwendig für die Kernfunktion)
+status.plex.tv #(Status-Seite)
+cdn.plex.tv #(Inhalte-Lieferung)
+tvdb.com #(TheTVDB – für Serien-Metadaten)
+thetvdb.com
+imdb.com #(IMDb – für Film-Metadaten)
+themoviedb.org #(TheMovieDB)
+api.thetvdb.com
+api.themoviedb.org
+provider.mpd.music.com #(für Musik-Metadaten)
+
+#############################################################################################################################################
+#ALEXA
+#############################################################################################################################################
+#amazon.com #(je nach Region, Dienste wie Alexa, Skill-Backends)
+#amazon.de
+#alexa.com #(wird oft zur Umleitung verwendet)
+#alexa.amazon.com
+#alexa-comms-mobile-service.amazon.com
+#api.amazonalexa.com
+#service.real.alexa.amazon.com
+#echoserver.ts.alexa.com
+#a.amazon.com #Basis-Verbindungen und API-Aufrufe
+#amazonaws.com #(je nach Region, Dienste wie Alexa, Skill-Backends)
+#aiv-cdn.net #(Content-Delivery-Network)
+#aiv-delivery.net #(Video-Streaming-Delivery)
+#fls-na.amazon.com #Verbindung für interne Dienste und Logs
+#avs-alexa-na.amazon.com #(Alexa Voice Service, kann je nach Region variieren)
+#avs-alexa-eu.amazon.com #(Alexa Voice Service, kann je nach Region variieren)
+#ssl-api.amazon.com
+#api.amazon.com #Generelle Amazon-API-Schnittstellen
+#device-metrics-us.amazon.com #(und ähnliche für andere Regionen)
+##metrics.amazon.com #Metriken und Dienst-Überwachung
+
+#############################################################################################################################################
+#Verschiedene Dienste
+#############################################################################################################################################
+aquacomputer.de
